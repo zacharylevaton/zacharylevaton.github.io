@@ -5,3 +5,8 @@ body {
 .navbar {
     border: 1px solid black;
 }
+
+.carousel-inner {
+    width: auto;
+    height: 36vh;
+}
