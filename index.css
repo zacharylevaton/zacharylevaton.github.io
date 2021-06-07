@@ -11,6 +11,14 @@ body {
     height: 50vh;
 }
 
+div#navbarNav > ul {
+    float: right;
+}
+
+.btn {
+    width: 12vh;
+}
+
 /*
 flip card
 */
