@@ -11,6 +11,10 @@ body {
     height: 50vh;
 }
 
+.btn {
+    font-size: .85vw;
+}
+
 /*
 flip card
 */
