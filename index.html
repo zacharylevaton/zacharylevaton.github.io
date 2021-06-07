@@ -19,36 +19,46 @@
 <body>
     <!-- NAVBAR -->
     <div class="container-xxl navbar-container">
-        <nav class="navbar sticky-top navbar-light bg-white">
+        <nav class="navbar sticky-top navbar-light bg-white navbar-expand-lg">
             <div class="container-fluid">
                 <!-- Title -->
                 <a class="navbar-brand" href="#">
                     <b>Zachary Levaton</b>
                 </a>
 
-                <!-- Social Media + Resume Download Links -->
-                <ul class="nav">
-                    <!-- Github -->
-                    <a class="btn btn-outline-dark btn-floating m-1" href="https://github.com/zacharylevaton" role="button" target=”_blank” rel="noopener noreferrer">
-                        <i class="fab fa-github"></i>
-                        <br>
-                        Github
-                    </a>
 
-                    <!-- Linkedin -->
-                    <a class="btn btn-outline-dark btn-floating m-1" href="https://www.linkedin.com/in/zachlevaton/" role="button" target=”_blank” rel="noopener noreferrer">
-                        <i class="fab fa-linkedin-in"></i>
-                        <br>
-                        Linkedin
-                    </a>
-
-                    <!-- Resume Download -->
-                    <a class="btn btn-outline-dark btn-floating m-1" href="ZAL_Resume.pdf" download>
-                        <i class="fas fa-file"></i>
-                        <br>
-                        Resume
-                    </a>
-                </ul>
+                <!-- Testing navbar dropdown menu for social media links -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <!-- Github -->
+                        <li class="nav-item">
+                            <a class="btn btn-outline-dark btn-floating m-1" href="https://github.com/zacharylevaton" role="button" target=”_blank” rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                <br>
+                                Github
+                            </a>
+                        </li>
+                        <!-- LinkedIn -->
+                        <li class="nav-item">
+                            <a class="btn btn-outline-dark btn-floating m-1" href="https://www.linkedin.com/in/zachlevaton/" role="button" target=”_blank” rel="noopener noreferrer">
+                                <i class="fab fa-linkedin-in"></i>
+                                <br>
+                                Linkedin
+                            </a>
+                        </li>
+                        <!-- Resume Download -->
+                        <li class="nav-item">
+                            <a class="btn btn-outline-dark btn-floating m-1" href="ZAL_Resume.pdf" download>
+                                <i class="fas fa-file"></i>
+                                <br>
+                                Resume
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </div>
