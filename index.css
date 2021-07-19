@@ -16,7 +16,12 @@ div#navbarNav > ul {
 }
 
 .btn {
-    width: 12vh;
+    width: 7.5vw;
+    height: 8vh;
+}
+
+.button-text {
+    font-size: 1vw;
 }
 
 /*
